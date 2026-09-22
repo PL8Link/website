@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PL8Link</title>
+<meta name="description" content="PL8Link is an opt-in app that connects vehicle owners through their license plate — privacy-first, verified, and yours to control." />
+<link rel="icon" href="favicon.png" />
+<style>
+  :root {
+    --bg: #05050f;
+    --card: #111120;
+    --border: #22223a;
+    --blue: #3d7eff;
+    --text: #eeeefa;
+    --sub: #9898be;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 24px;
+  }
+  .logo {
+    width: min(320px, 80vw);
+    height: auto;
+    margin-bottom: 28px;
+  }
+  h1 {
+    font-size: clamp(20px, 4vw, 28px);
+    font-weight: 700;
+    margin: 0 0 12px;
+    max-width: 560px;
+    line-height: 1.4;
+  }
+  p.sub {
+    color: var(--sub);
+    font-size: 15px;
+    max-width: 480px;
+    line-height: 1.6;
+    margin: 0 0 32px;
+  }
+  .badge {
+    display: inline-block;
+    border: 1px solid var(--border);
+    background: var(--card);
+    color: var(--sub);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    border-radius: 999px;
+    margin-bottom: 40px;
+  }
+  .links {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .links a {
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .links a:hover { text-decoration: underline; }
+  footer {
+    margin-top: 56px;
+    color: var(--sub);
+    font-size: 12px;
+    opacity: 0.7;
+  }
+</style>
+</head>
+<body>
+  <img class="logo" src="logo.png" alt="PL8Link" />
+  <h1>Connect with people through the vehicles they drive.</h1>
+  <p class="sub">
+    PL8Link is an opt-in profile linked to your license plate — you control what's
+    visible, and nothing is public unless you choose to verify and share it.
+  </p>
+  <span class="badge">Coming soon</span>
+  <div class="links">
+    <a href="https://privacy.pl8link.com">Privacy Policy</a>
+    <a href="mailto:help@pl8link.com">Contact</a>
+  </div>
+  <footer>&copy; 2026 PL8LINK LLC</footer>
+</body>
+</html>
